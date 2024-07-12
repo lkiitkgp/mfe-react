@@ -23,7 +23,7 @@
   "scripts": {
     "start": "webpack-cli serve",
     "build": "webpack build --config webpack.config.js --stats-children",
-    "serve": "webpack serve --config webpack.config.js --port 3003",
+    "serve": "webpack serve --config webpack.config.js --port 3000",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

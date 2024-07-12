@@ -1,5 +1,5 @@
 import React from "react";
-import routes from '../routes/routes';
+import routes from "../routes/routes";
 import { Link } from "react-router-dom";
 
 interface Route {
