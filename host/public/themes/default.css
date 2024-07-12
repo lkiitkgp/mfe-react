@@ -1,0 +1,158 @@
+:root {
+  --primary-bg: #ffffff;
+  --secondary-bg: #eeeeee;
+  --primary-border: #b4b4b4;
+  --text-default: #111111;
+  --text-hover: #e5e7eb;
+  --header-avatar-border: #fe414d;
+  --header-logo-primary: #111111;
+  --header-logo-secondary: #fe414d;
+
+  /* Sidebar */
+  --sidebar-bg: #373737;
+  --sidebar-tab-border-default: #4b4b4b;
+  --sidebar-toggle-border: #b4b4b4;
+  --sidebar-toggle-bg-default: #4b4b4b;
+  --sidebar-toggle-bg-hover: #00e6c3;
+  --sidebar-toggle-button-bg-default: #ffffff;
+  /* Sidebar light toggle button */
+  --sidebar-toggle-light-text-default: #111111;
+  --sidebar-toggle-light-text-hover: #111111;
+  /* Sidebar dark toggle button */
+  --sidebar-toggle-dark-text-default: #ffffff;
+  --sidebar-toggle-dark-text-hover: #111111;
+
+  --apiportal-panel-header-bg: #00e6c3;
+  --apiportal-panel-icon-border: #111111;
+  --apiportal-panel-response-bg: #ffffff;
+  --apiportal-panel-response-border: #b4b4b4;
+  --apiportal-panel-header-text-default: #111111;
+  --apiportal-panel-header-subtext-default: #3d3d3d;
+  --transparent: transparent;
+
+  /* Checkbox */
+  --checkbox-bg-unchecked: #ffffff;
+  --checkbox-text-unchecked: #ffffff;
+  --checkbox-border-unchecked: #b4b4b4;
+  --checkbox-bg-checked: #292929;
+  --checkbox-text-checked: #ffffff;
+  --checkbox-border-checked: #292929;
+  --checkbox-border-focus: #292929;
+
+  /* Input */
+  --input-bg-default: #ffffff;
+  --input-bg-hover: #ffffff;
+  --input-bg-focus: #ffffff;
+  --input-border-default: #ffffff;
+  --input-border-hover: #a5010b;
+  --input-border-focus: #b4b4b4;
+  --input-text-default: #111111;
+  --input-text-placeholder: #434343;
+
+  /* Input slider */
+  --input-slider-thumb-bg-default: #111111;
+  --input-slider-thumb-ring-default: #ffffff;
+
+  /* Dropdown */
+  --dropdown-bg-default: #eeeeee;
+  --option-bg-default: #ffffff;
+  --option-text-default: #111111;
+  --dropdown-bg-hover: #eeeeee;
+  --option-bg-hover: #a5010b;
+  --option-text-hover: #ffffff;
+  --dropdown-bg-focus: #eeeeee;
+  --dropdown-bg-selected: #d1d1d1;
+  --option-bg-selected: #d1d1d1;
+  --option-text-selected: #111111;
+  --dropdown-border-default: #4b4b4b;
+  --dropdown-border-hover: #a5010b;
+  --dropdown-border-focus: #b4b4b4;
+  --dropdown-text-default: #111111;
+
+  /* Language Dropdown */
+  --languagedropdown-bg-default: #ffffff;
+  --languageoption-bg-hover: #eaecf0;
+  --languageoption-bg-selected: #eaecf0;
+
+  /* Link */
+  --link-text-default: #111111;
+  --link-text-hover: #a5010b;
+  --link-text-press: #d8010f;
+  --link-text-focus: #111111;
+  --link-text-disabled: #767676;
+  --link-border-default: transparent;
+  --link-border-focus: #111111;
+
+  /* Alert */
+  --alert-bg-error: #fff2f3;
+  --alert-border-error: #fe414d;
+  --alert-bg-success: #e0fff7;
+  --alert-border-success: #00e6c3;
+
+  /* Static Alert */
+  --alert-bg-information: #f9faff;
+  --alert-bg-warning: #ffeeee;
+
+  /* Chip */
+  --chip-bg-success: #008826;
+  --chip-bg-secondary: #475467;
+  --chip-bg-error: #b82223;
+
+  /* Snackbar */
+  --snackbar-text-default: #079fff;
+
+  /* Toggle */
+  --toggle-bg-default: #767676;
+
+  /* Popover */
+  --popover-border-default: #b4b4b4;
+
+  /* Button */
+
+  /* Primary color */
+  --button-bg-primary-default: #fe414d;
+  --button-text-primary-default: #111111;
+  --button-border-primary-default: transparent;
+  --button-bg-primary-hover: #a5010b;
+  --button-text-primary-hover: #ffffff;
+  --button-bg-primary-press: #111111;
+  --button-text-primary-press: #ffffff;
+  --button-bg-primary-focus: #fe414d;
+  --button-text-primary-focus: #111111;
+  --button-border-primary-focus: #a5010b;
+  --button-bg-primary-disabled: #ffffff;
+  --button-text-primary-disabled: #4b4b4b;
+  /* Secondary color */
+  --button-bg-secondary-default: #111111;
+  --button-text-secondary-default: #ffffff;
+  --button-border-secondary-default: transparent;
+  --button-bg-secondary-hover: #a5010b;
+  --button-text-secondary-hover: #ffffff;
+  --button-bg-secondary-press: #d8010f;
+  --button-text-secondary-press: #ffffff;
+  --button-bg-secondary-focus: #111111;
+  --button-text-secondary-focus: #ffffff;
+  --button-border-secondary-focus: #111111;
+  --button-bg-secondary-disabled: #ffffff;
+  --button-text-secondary-disabled: #4b4b4b;
+  /* Tertiary colos */
+  --button-bg-tertiary-default: #d1d1d1;
+  --button-text-tertiary-default: #111111;
+  --button-border-tertiary-default: transparent;
+  --button-bg-tertiary-hover: #4b4b4b;
+  --button-text-tertiary-hover: #ffffff;
+  --button-bg-tertiary-press: #111111;
+  --button-text-tertiary-press: #ffffff;
+  --button-bg-tertiary-focus: #d1d1d1;
+  --button-text-tertiary-focus: #111111;
+  --button-border-tertiary-focus: #4b4b4b;
+  --button-bg-tertiary-disabled: #ffffff;
+  --button-text-tertiary-disabled: #4b4b4b;
+
+  /* =============================================== */
+  /* Inverse Colors */
+
+  --primary-bg-inverse: #292929;
+  --secondary-bg-inverse: #111111;
+  --text-default-inverse: #ffffff;
+}

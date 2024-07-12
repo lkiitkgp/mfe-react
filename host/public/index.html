@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+    window.BUILDVERSION = "%NX_BUILD_VERSION%";
+    function getPartnerCSS() {
+      const partnerID = sessionStorage.getItem("partner") || "default";
+      const head = document.head;
+      const link = document.createElement("link");
+
+      link.type = "text/css";
+      link.rel = "stylesheet";
+      link.href = `/themes/${partnerID}.css`;
+
+      head.appendChild(link);
+    }
+    getPartnerCSS();
+  </script>
+</html>
